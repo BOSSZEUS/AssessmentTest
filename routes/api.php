@@ -24,6 +24,6 @@ Route::get('/users', 'App\Http\Controllers\ApiController@show');
 //route to get users by id
 Route::get('/users/{id}','App\Http\Controllers\ApiController@ShowById');
 // route to update users by id
-Route::put('/usersupdate/{id}','App\Http\Controllers\ApiController@update');
+Route::put('/users/update/{id}','App\Http\Controllers\ApiController@update');
 // route to delete users by id
-Route::delete('/usersdelete/{id}', 'App\Http\Controllers\ApiController@delete');
+Route::delete('/users/delete/{id}', 'App\Http\Controllers\ApiController@delete');

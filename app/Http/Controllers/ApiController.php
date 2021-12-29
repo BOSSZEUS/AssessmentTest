@@ -38,7 +38,7 @@ class ApiController extends Controller
         $users->email = $request->input('email');
         $users->password = $request->input('password');
 
-        $users->save();
+        $users->save();  
         return response()->json($users);
     }
     // function to delete by id
